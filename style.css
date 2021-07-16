@@ -17,17 +17,17 @@ body {
 
   #myWork {
       grid-area: myWork;
-      background-image: url("../UX_UI_HW_18/images/YOUWHO.png");
+      background-image: url("../UX_UI_HW_18/images/Youwhowhite.png");
   }
 
   #secondaryProject {
       grid-area: secondaryProject;
-      background-image: url("../UX_UI_HW_18/images/furniture2.png");
+      background-image: url("../UX_UI_HW_18/images/Appleone.jpeg");
   }
 
   #CTA {
       grid-area: CTA;
-      background-image: url("../UX_UI_HW_18/images/woodbg.png");
+      background-image: url("../UX_UI_HW_18/images/chrome.jpeg");
       justify-content: space-around;
       cursor: pointer;
   }
@@ -142,12 +142,14 @@ body {
       "secondaryProject CTA";
     }
     #categoryGrid {
-      grid-template-rows: 300px 300px 300px;
+      grid-template-rows: 300px 300px 300px 300px 300px;
       grid-template-columns: 1fr;
       grid-template-areas:
         "LISTr"
         "USDE"
+        "iPad"
         "moreArt"
+        "iMac"
       ;
     }
   }
@@ -159,12 +161,12 @@ body {
   
   #secondaryProject {
       grid-area: secondaryProject;
-      background-image: url("../UX_UI_HW_18/images/furniture2.png");
+      background-image: url("../UX_UI_HW_18/images/Appleone.jpeg");
   }
 
   #CTA {
       grid-area: CTA;
-      background-image: url("../UX_UI_HW_18/images/woodbg.png");
+      background-image: url("../UX_UI_HW_18/images/chrome.jpeg");
   }
 
   /* Category Grid CSS */
@@ -182,7 +184,9 @@ body {
     grid-template-rows: 300px 300px 300px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
-    "LISTr USDE moreArt"
+    "LISTr USDE iPad"
+    "moreArt moreArt iPad"
+    "iMac iMac iMac"
     ;
   }
   
@@ -198,11 +202,21 @@ body {
   
   #moreArt {
     grid-area: moreArt;
-    background-image: url("../UX_UI_HW_18/images/MOREART.png");
+    background-image: url("../UX_UI_HW_18/images/MoreArtMobile.png");
+  }
+
+  #iPad {
+      grid-area: iPad;
+      background-image: url("../UX_UI_HW_18/images/ipad.jpeg");
+  }
+
+  #iMac {
+      grid-area: iMac;
+      background-image: url("../UX_UI_HW_18/images/imac.jpg");
   }
 
 
-  categoryGridArea {
+  .categoryGridArea {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
